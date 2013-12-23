@@ -1,0 +1,7 @@
+<% std_opts = '--no-source --color --format pretty' %>
+
+# default: DRIVER=WATIR <%= std_opts %>
+# default: DRIVER=WATIR <%= std_opts %>
+# default: DRIVER=WATIR <%= std_opts %>
+focus: DRIVER=WATIR <%= std_opts %> --tags @focus
+
